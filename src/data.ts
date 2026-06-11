@@ -43,7 +43,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Dean - Faculty of Computing and Technology',
     category: 'visionary',
     bio: 'FCT Technologies is where ambition meets expertise — a powerhouse of driven undergraduate developers crafting robust digital solutions under world-class academic leadership, for clients who expect nothing less than excellence.',
-    imageUrl: '/assets/team/prof-dammika.jpeg'
+    imageUrl: `${import.meta.env.BASE_URL}assets/team/prof-dammika.jpeg`
   },
   {
     id: 'dr-pradeep',
@@ -51,7 +51,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Director of Industry Interaction Cell',
     category: 'visionary',
     bio: 'FCT Technologies is where ambition meets expertise — a powerhouse of driven undergraduates crafting robust digital solutions under world-class academic leadership, for clients who expect nothing less than excellence.',
-    imageUrl: '/assets/team/dr-pradeep.jpeg'
+    imageUrl: `${import.meta.env.BASE_URL}assets/team/dr-pradeep.jpeg`
   },
   {
     id: 'dr-muditha',
@@ -59,7 +59,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Director of FCT Technologies',
     category: 'visionary',
     bio: 'FCT Technologies is where ambition meets expertise — a powerhouse of driven undergraduates crafting robust digital solutions under world-class academic leadership, for clients who expect nothing less than excellence.',
-    imageUrl: '/assets/team/dr-muditha.jpeg'
+    imageUrl: `${import.meta.env.BASE_URL}assets/team/dr-muditha.jpeg`
   },
   // FCT Technologies Leads
   {
@@ -67,38 +67,38 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: 'Mr. Akash Tharuka',
     role: 'Lecturer at Faculty of Computing and Technology',
     category: 'lead',
-    imageUrl: '/assets/team/mr-akash.jpeg'
+    imageUrl: `${import.meta.env.BASE_URL}assets/team/mr-akash.jpeg`
   },
   {
     id: 'ms-hirushi',
     name: 'Ms. Hirushi Nawanjana',
     role: 'Lecturer at Faculty of Computing and Technology',
     category: 'lead',
-    imageUrl: '/assets/team/ms-hirushi.jpeg'
+    imageUrl: `${import.meta.env.BASE_URL}assets/team/ms-hirushi.jpeg`
   },
   {
     id: 'mr-loch',
     name: 'Mr. Loch Arachchige',
     role: 'UX Engineering Lead at FCT Technologies',
     category: 'lead',
-    imageUrl: '/assets/team/mr-loch.jpeg'
+    imageUrl: `${import.meta.env.BASE_URL}assets/team/mr-loch.jpeg`
   },
   // Our Team
-  { id: 'chames', name: 'Chames Dinuka', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/chames.jpeg' },
-  { id: 'janishka', name: 'Janishka Madushan', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/janishka.jpeg' },
-  { id: 'tharupathi', name: 'Tharupathi Bandara', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/tharupathi.png' },
-  { id: 'pathindu', name: 'Pathindu Dananidu', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/pathindu.jpeg' },
-  { id: 'sajnu', name: 'Sajnu Mendis', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/sajnu.jpeg' },
-  { id: 'thinul', name: 'Thinul Ranmuthu', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/thinul.jpeg' },
-  { id: 'salik', name: 'M.R.M Salik', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/salik.jpeg' },
-  { id: 'sandeepa', name: 'Sandeepa Thisath', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/sandeepa.png' },
-  { id: 'lakmina', name: 'Lakmina Rubasinghe', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/lakmina.png' },
-  { id: 'kisara', name: 'Kisara Beddawala', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/kisara.jpeg' },
-  { id: 'ravindu', name: 'Ravindu Kalhara', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/ravindu.png' },
-  { id: 'chathuranga', name: 'R.P.D. Chathuranga', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/chathuranga.jpeg' },
-  { id: 'samindra', name: 'Samindra Herath', role: 'Network Analyst - Intern', category: 'member', imageUrl: '/assets/team/samindra.png' },
-  { id: 'vidmal', name: 'Vidmal Senanayake', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/vidmal.jpeg' },
-  { id: 'amayuru', name: 'Amayuru Pramodaya', role: 'Software Engineer - Intern', category: 'member', imageUrl: '/assets/team/amayuru.jpeg' }
+  { id: 'chames', name: 'Chames Dinuka', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/chames.jpeg` },
+  { id: 'janishka', name: 'Janishka Madushan', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/janishka.jpeg` },
+  { id: 'tharupathi', name: 'Tharupathi Bandara', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/tharupathi.png` },
+  { id: 'pathindu', name: 'Pathindu Dananidu', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/pathindu.jpeg` },
+  { id: 'sajnu', name: 'Sajnu Mendis', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/sajnu.jpeg` },
+  { id: 'thinul', name: 'Thinul Ranmuthu', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/thinul.jpeg` },
+  { id: 'salik', name: 'M.R.M Salik', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/salik.jpeg` },
+  { id: 'sandeepa', name: 'Sandeepa Thisath', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/sandeepa.png` },
+  { id: 'lakmina', name: 'Lakmina Rubasinghe', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/lakmina.png` },
+  { id: 'kisara', name: 'Kisara Beddawala', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/kisara.jpeg` },
+  { id: 'ravindu', name: 'Ravindu Kalhara', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/ravindu.png` },
+  { id: 'chathuranga', name: 'R.P.D. Chathuranga', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/chathuranga.jpeg` },
+  { id: 'samindra', name: 'Samindra Herath', role: 'Network Analyst - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/samindra.png` },
+  { id: 'vidmal', name: 'Vidmal Senanayake', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/vidmal.jpeg` },
+  { id: 'amayuru', name: 'Amayuru Pramodaya', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/amayuru.jpeg` }
 ];
 
 export const PROJECTS: Project[] = [
@@ -242,11 +242,10 @@ export const VALUES: ValueDetail[] = [
   }
 ];
 
-// Use string paths for images to avoid module resolution/type errors in environments
-// where image modules are not declared. Adjust if your build supports importing images.
-const lab1 = '../assets/lab-images/lab-1.jpeg';
-const lab2 = '../assets/lab-images/lab-2.jpeg';
-const lab3 = '../assets/lab-images/lab-3.jpeg';
-const lab4 = '../assets/lab-images/lab-4.jpeg';
+// Use import.meta.env.BASE_URL to ensure correct paths on GitHub Pages subdirectory deployments.
+const lab1 = `${import.meta.env.BASE_URL}assets/lab-images/lab-1.jpeg`;
+const lab2 = `${import.meta.env.BASE_URL}assets/lab-images/lab-2.jpeg`;
+const lab3 = `${import.meta.env.BASE_URL}assets/lab-images/lab-3.jpeg`;
+const lab4 = `${import.meta.env.BASE_URL}assets/lab-images/lab-4.jpeg`;
 
 export const LAB_IMAGES = [lab1, lab2, lab3, lab4];

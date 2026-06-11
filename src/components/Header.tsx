@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X } from 'lucide-react';
-import logo from '../../assets/logos/logo.png';
+const logo = `${import.meta.env.BASE_URL}assets/logos/logo.png`;
 
 
 interface HeaderProps {

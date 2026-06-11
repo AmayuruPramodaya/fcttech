@@ -41,7 +41,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
           <div className="space-y-4" id="footer-brand-col">
             <div className="flex items-center space-x-2">
               <img 
-                src="/assets/logos/logo.png" 
+                src={`${import.meta.env.BASE_URL}assets/logos/logo.png`} 
                 alt="FCT Technologies Logo" 
                 className="h-10 w-auto"
                 id="footer-logo"

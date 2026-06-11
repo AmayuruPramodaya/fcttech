@@ -38,7 +38,7 @@ export default function AboutView() {
           id="about-banner-container"
         >
           <img 
-            src="/assets/about-banner.png" 
+            src={`${import.meta.env.BASE_URL}assets/about-banner.png`} 
             alt="FCT Technologies Group Gathering"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -92,7 +92,7 @@ export default function AboutView() {
             </div>
             <div className="rounded-3xl overflow-hidden shadow-lg border border-gray-100">
               <img 
-                src="/assets/what-is-fct-image.jpeg" 
+                src={`${import.meta.env.BASE_URL}assets/what-is-fct-image.jpeg`} 
                 alt="FCT Technologies Team Working"
                 className="w-full object-cover aspect-video"
                 referrerPolicy="no-referrer"
@@ -122,7 +122,7 @@ export default function AboutView() {
             </div>
             <div className="md:col-span-5 h-20 md:h-full overflow-hidden">
               <img 
-                src="/assets/work-team.jpeg" 
+                src={`${import.meta.env.BASE_URL}assets/work-team.jpeg`} 
                 alt="Undergraduate student team"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -137,7 +137,7 @@ export default function AboutView() {
           >
             <div className="md:col-span-5 h-20 md:h-full overflow-hidden order-last md:order-first">
               <img 
-                src="/assets/manage-team.jpeg" 
+                src={`${import.meta.env.BASE_URL}assets/manage-team.jpeg`} 
                 alt="faculty mentorship and administration"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
