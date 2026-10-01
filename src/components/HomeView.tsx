@@ -401,8 +401,8 @@ export default function HomeView({ setActiveTab }: HomeViewProps) {
                       whileHover={{ y: 0, opacity: 1 }}
                       transition={{ duration: 0.2 }}
                     >
-                      <span className="text-sm font-bold text-white tracking-wide block">FCT Lab {i + 1}</span>
-                      <span className="text-xs text-gray-200">Undergraduate Research Hub</span>
+                      <span className="text-sm font-bold text-white tracking-wide block">FCT Dev Lab </span>
+                      <span className="text-xs text-gray-200">FCT Technologies office</span>
                     </motion.div>
                   </div>
                 </motion.div>

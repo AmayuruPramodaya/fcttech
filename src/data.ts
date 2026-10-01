@@ -74,31 +74,31 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: 'Ms. Hirushi Nawanjana',
     role: 'Lecturer at Faculty of Computing and Technology',
     category: 'lead',
-    imageUrl: `${import.meta.env.BASE_URL}assets/team/ms-hirushi.jpeg`
+    imageUrl: `${import.meta.env.BASE_URL}assets/team/ms-hirushi.JPG`
   },
   {
     id: 'mr-loch',
     name: 'Mr. Loch Arachchige',
     role: 'UX Engineering Lead at FCT Technologies',
     category: 'lead',
-    imageUrl: `${import.meta.env.BASE_URL}assets/team/mr-loch.jpeg`
+    imageUrl: `${import.meta.env.BASE_URL}assets/team/mr-loch.JPG`
   },
   // Our Team
-  { id: 'chames', name: 'Chames Dinuka', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/chames.jpeg` },
-  { id: 'janishka', name: 'Janishka Madushan', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/janishka.jpeg` },
-  { id: 'tharupathi', name: 'Tharupathi Bandara', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/tharupathi.png` },
-  { id: 'pathindu', name: 'Pathindu Dananidu', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/pathindu.jpeg` },
-  { id: 'sajnu', name: 'Sajnu Mendis', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/sajnu.jpeg` },
+  { id: 'chames', name: 'Chames Dinuka', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/chames.JPG` },
+  { id: 'janishka', name: 'Janishka Madushan', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/janishka.JPG` },
+  { id: 'tharupathi', name: 'Tharupathi Bandara', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/tharupathi.JPG` },
+  { id: 'pathindu', name: 'Pathindu Dananidu', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/pathindu.JPG` },
+  { id: 'sajnu', name: 'Sajnu Mendis', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/sajnu.JPG` },
   { id: 'thinul', name: 'Thinul Ranmuthu', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/thinul.jpeg` },
-  { id: 'salik', name: 'M.R.M Salik', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/salik.jpeg` },
-  { id: 'sandeepa', name: 'Sandeepa Thisath', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/sandeepa.png` },
-  { id: 'lakmina', name: 'Lakmina Rubasinghe', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/lakmina.png` },
-  { id: 'kisara', name: 'Kisara Beddawala', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/kisara.jpeg` },
-  { id: 'ravindu', name: 'Ravindu Kalhara', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/ravindu.png` },
-  { id: 'chathuranga', name: 'R.P.D. Chathuranga', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/chathuranga.jpeg` },
-  { id: 'samindra', name: 'Samindra Herath', role: 'Network Analyst - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/samindra.png` },
-  { id: 'vidmal', name: 'Vidmal Senanayake', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/vidmal.jpeg` },
-  { id: 'amayuru', name: 'Amayuru Pramodaya', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/amayuru.jpeg` }
+  { id: 'salik', name: 'M.R.M Salik', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/salik.JPG` },
+  { id: 'sandeepa', name: 'Sandeepa Thisath', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/sandeep.JPG` },
+  { id: 'lakmina', name: 'Lakmina Rubasinghe', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/lakmina.JPG` },
+  { id: 'kisara', name: 'Kisara Beddawala', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/kisara.JPG` },
+  { id: 'ravindu', name: 'Ravindu Kalhara', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/kalhara.JPG` },
+  { id: 'chathuranga', name: 'R.P.D. Chathuranga', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/chathuranga.JPG` },
+  { id: 'samindra', name: 'Samindra Herath', role: 'Network Analyst - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/samindra.JPG` },
+  { id: 'vidmal', name: 'Vidmal Senanayake', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/vidmal.JPG` },
+  { id: 'amayuru', name: 'Amayuru Pramodaya', role: 'Software Engineer - Intern', category: 'member', imageUrl: `${import.meta.env.BASE_URL}assets/team/amayuru.JPG` }
 ];
 
 export const PROJECTS: Project[] = [

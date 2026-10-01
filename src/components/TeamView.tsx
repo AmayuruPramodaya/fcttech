@@ -110,7 +110,7 @@ export default function TeamView({ setActiveTab }: TeamViewProps) {
                 className="bg-white rounded-3xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow group text-center"
                 id={`lead-card-${lead.id}`}
               >
-                <div className="w-32 h-32 rounded-2xl overflow-hidden mx-auto mb-6 border border-gray-100 relative shadow-sm">
+                <div className="w-48 h-48 rounded-2xl overflow-hidden mx-auto mb-6 border border-gray-100 relative shadow-sm">
                   <img 
                     src={lead.imageUrl} 
                     alt={lead.name}
@@ -135,7 +135,7 @@ export default function TeamView({ setActiveTab }: TeamViewProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-3 mb-16">
             <span className="text-xs font-bold uppercase tracking-widest text-brand-orange">
-              LEADERSHIP
+              TECHNOLOGISTS
             </span>
             <h2 className="text-4xl sm:text-5xl font-black font-heading text-neutral-950 tracking-tight">
               Our Team

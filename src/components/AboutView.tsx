@@ -38,7 +38,7 @@ export default function AboutView() {
           id="about-banner-container"
         >
           <img 
-            src={`${import.meta.env.BASE_URL}assets/about-banner.png`} 
+            src={`${import.meta.env.BASE_URL}assets/about-banner.jpg`} 
             alt="FCT Technologies Group Gathering"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -59,7 +59,7 @@ export default function AboutView() {
                 Our Mission
               </h2>
               <p className="text-sm sm:text-base text-gray-650 leading-relaxed">
-                To empower businesses and organizations with innovative, reliable, and high-quality digital solutions built through technical excellence, creativity, and real-world collaboration.
+                To empower students and faculty to create impactful IT solutions that advance digital transformation.
               </p>
             </div>
 
@@ -71,7 +71,7 @@ export default function AboutView() {
                 Our Vision
               </h2>
               <p className="text-sm sm:text-base text-gray-650 leading-relaxed">
-                To become a leading university-based software solutions hub, delivering impactful digital experiences that bridge academic talent with industry needs while setting new standards in innovation and quality.
+                To be a centre of excellence in dveloping IT solutions and technologies y innovation, bridging academia and industry.
               </p>
             </div>
           </div>
@@ -87,7 +87,11 @@ export default function AboutView() {
                 What is FCT Technologies ?
               </h2>
               <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                FCT Technologies is the official software solutions company of the Faculty of Computing and Technology, University of Kelaniya, established and managed by the Industry Interaction Cell. The company delivers innovative, high-quality, and cost-effective software solutions to businesses and organizations through a talented team of undergraduate students, primarily from Computer Science and Information and Communication Technology, who possess strong technical skills, creativity, and a passion for emerging technologies. FCT Technologies also provides part-time internship opportunities that give students valuable real-world industry experience while allowing them to work both on-site in a modern laboratory equipped with high-performance computers and remotely under the guidance and leadership of the faculty administration.
+                FCT Technologies, the software development unit under IICFCT, provides undergraduates with valuable opportunities to gain hands-on experience through real-world industry projects. By working on practical software development projects, students can experience how the IT industry operates, apply their academic knowledge to real challenges, strengthen their technical and professional skills, and develop the confidence needed for their future careers.
+                <br />
+                Our goal is to empower the next generation of IT professionals by connecting classroom learning with real industry experience.
+                <br />
+                Learn. Build. Experience. Grow.
               </p>
             </div>
             <div className="rounded-3xl overflow-hidden shadow-lg border border-gray-100">
@@ -122,7 +126,7 @@ export default function AboutView() {
             </div>
             <div className="md:col-span-5 h-20 md:h-full overflow-hidden">
               <img 
-                src={`${import.meta.env.BASE_URL}assets/work-team.jpeg`} 
+                src={`${import.meta.env.BASE_URL}assets/work-team.JPG`} 
                 alt="Undergraduate student team"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
